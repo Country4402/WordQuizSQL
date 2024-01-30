@@ -1,0 +1,25 @@
+#linkDiv {
+  background-color: #343a40;
+  margin-top: -25px;
+  padding: 20px;
+}
+
+#linkDiv > a {
+  font-size: 20px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+#linkDiv > a:hover {
+  color: white;
+}
+
+#root > footer > div > a {
+  font-size: 20px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+#root > footer > div > a:hover {
+  color: white;
+}

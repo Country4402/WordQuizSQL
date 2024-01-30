@@ -1,0 +1,7 @@
+.statDiv {
+  min-height: 650px;
+}
+
+#root > div.navbar.navbar-dark.bg-dark > div > div.btn.gold > h2:hover {
+  color: white;
+}

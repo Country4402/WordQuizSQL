@@ -1,0 +1,13 @@
+#linkDiv > a {
+  font-size: 20px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+#linkDiv > a:hover {
+  color: white;
+}
+
+#root > div.mt-5 > a:hover {
+  color: white;
+}

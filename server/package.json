@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -w",
+    "start": "node server.js",
+    "client": "npm start --prefix ../client",
+    "app": "concurrently 'npm run dev' 'npm run client'",
+    "seed": "sudo mysql -u root -p < ./db_seed/word-quiz.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.2"
+  }
+}

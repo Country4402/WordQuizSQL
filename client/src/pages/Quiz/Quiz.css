@@ -1,0 +1,30 @@
+.questionDiv {
+  font-size: 40px;
+  font-weight: 900;
+  background-color: rgb(250, 244, 233);
+  padding: 30px;
+  margin-top: 80px;
+  border: 10px solid #343a40;
+  color: #daa520
+}
+
+.answerDiv {
+  margin-top: 20px;
+}
+
+button.btn.btn-dark.col-4.m-3:hover {
+  color: #daa520;
+}
+
+.nameDiv {
+  background-color: #343a40;
+  margin-top: -25px;
+}
+
+button.btn.btn-dark.col-4.m-3 {
+  font-size: 20px;
+}
+
+.questionFont {
+  font-family: Helvetica;
+}

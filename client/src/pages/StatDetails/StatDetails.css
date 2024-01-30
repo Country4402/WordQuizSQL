@@ -1,0 +1,11 @@
+#modal > div > div > div > a, #root > button {
+  color: #daa520;
+}
+
+#modal > div > div > div > a:hover, #root > button:hover {
+ color: white;
+}
+
+#root > div > button > span:hover, #root > div > a > span:hover {
+  color: #daa520;
+}

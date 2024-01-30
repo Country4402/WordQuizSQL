@@ -1,0 +1,136 @@
+#img {
+  background-image: url('../images/779cf564c9284523a666b6b4c184b0fc.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 700px;
+  padding: 50px;
+}
+
+#lightBox {
+  margin: auto;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+}
+
+#wordLightBox {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+}
+
+.container {
+  font-family: cursive;
+  background-color: antiquewhite;
+  padding: 0px 50px 50px 50px;
+}
+
+#homeText {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#img > div > div.answerDiv > button {
+  font-size: 10px;
+  margin: 10px;
+  width: 40%;
+}
+server/package.json
+.btn:hover {
+  color: #daa520;
+}
+
+.offwhite {
+  color: burlywood
+}
+
+.gold {
+  color: #daa520;
+}
+
+.black {
+  color: #343a40;
+}
+
+.hover:hover {
+  color: white;
+}
+
+button {
+  width: 200px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  body {
+    margin: auto;
+  }
+
+  #img {
+    min-height: 500px
+  }
+
+  #lightBox {
+    padding: 10px;
+  }
+
+  .container {
+    margin: -50px auto;
+    padding: 5px 5px 5px 5px;
+  }
+
+  h1 {
+    font-size: 20px ;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  #linkDiv > a {
+    font-size: 10px
+  }
+
+  .questionDiv {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .answerDiv {
+    margin: 10px;
+  }
+
+  #img > div > div.answerDiv > button {
+    font-size: 10px;
+  }
+
+  .scoreD {
+    margin: 0px
+  }
+
+}
+
+@media only screen and (min-width: 990px) {
+
+  #img > div > div.answerDiv > button {
+    font-size: 27px;
+  }
+
+}
